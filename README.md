@@ -110,7 +110,7 @@ We can also run the BPTT algorithm instead of EP to train our convergent RNNs. H
 Additional data supporting our methodology is inside the folder ./saved_model/test_SNLI_25_300 (For SNLI dataset).
 
 
-## Environment Setup
+## Reference
 
 Please cite this code with the following bibliography:
 
