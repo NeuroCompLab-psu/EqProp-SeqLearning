@@ -88,23 +88,23 @@ We can also run the BPTT algorithm instead of EP to train our convergent RNNs. H
 |Arguments|Description|Examples|
 |-------|------|------|
 |`dataset`|Choose the dataset.|`--dataset 'IMDB'`, `--dataset 'SNLI'`|
-|`fc_layers`|List of dimensions of fully connected layers|`--fc_layer 1000 40 2`|
-|`seqLen`|Maximum sequence length|`--seqLen 500`, `--seqLen 25`|
-|`act`|Activation function for neurons|`--act 'tanh'`,`'mysig'`,`'hard_sigmoid'`|
-|`execute`|Train/Test or check the theorem (GDU)|`--execute 'train'`,`--execute 'test'`, `--execute 'gducheck'`|
+|`fc_layers`|List of dimensions of fully connected layers.|`--fc_layer 1000 40 2`|
+|`seqLen`|Maximum sequence length.|`--seqLen 500`, `--seqLen 25`|
+|`act`|Activation function for neurons.|`--act 'tanh'`,`'mysig'`,`'hard_sigmoid'`|
+|`execute`|Train/Test or check the theorem (GDU).|`--execute 'train'`,`--execute 'test'`, `--execute 'gducheck'`|
 |`alg`|EqProp or BPTT.|`--alg 'EP'`, `--alg 'BPTT'`|
 |`T`|Number of time steps in free phase.|`--T 60`|
 |`K`|Number of time steps in nudge phase.|`--K 30`|
-|`betas`|Beta values for free (beta1) and nudge(beta2) phases|`--betas 0.0 0.1`|
+|`betas`|Beta values for free (beta1) and nudge(beta2) phases.|`--betas 0.0 0.1`|
 |`thirdphase`|Two nudge phases are done with beta2 and -beta2.|`--thirdphase`|
 |`lrs`|Layer wise learning rates.|`--lrs 0.01 0.005`|
 |`lr-decay`|Learning rate decay (Cosine Annealing).|`--lr-decay`|
 |`epochs`|Number of epochs.|`--epochs 200`|
-|`batch_size`|Batch size|`--batch_size 128`|
+|`batch_size`|Batch size.|`--batch_size 128`|
 |`seed`|Random seed select.|`--seed 0`|
 |`load-path`|Load a saved model.|`--load-path 'saved_models/test_SNLI_25_300'`|
-|`device`|GPU Index|`--device 0`|
-|`save`|Save best models (and/or plots)|`--save`|
+|`device`|GPU Index.|`--device 0`|
+|`save`|Save best models (and/or plots).|`--save`|
 
 
 Additional data supporting our methodology is inside the folder ./saved_model/test_SNLI_25_300 (For SNLI dataset).
