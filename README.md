@@ -116,9 +116,11 @@ Please cite this code with the following bibliography:
 
 Malyaban Bal, Abhronil Sengupta, “Sequence Learning Using Equilibrium Propagation“, Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI-23)
 
+```
 @article{bal2022sequence,
   title={Sequence Learning using Equilibrium Propagation},
   author={Bal, Malyaban and Sengupta, Abhronil},
   journal={arXiv preprint arXiv:2209.09626},
   year={2022}
 }
+```
