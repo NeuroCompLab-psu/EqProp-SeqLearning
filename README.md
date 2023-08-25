@@ -89,7 +89,7 @@ We can also run the BPTT algorithm instead of EP to train our convergent RNNs. H
 |-------|------|------|
 |`dataset`|Choose the dataset.|`--dataset 'IMDB'`, `--dataset 'SNLI'`|
 |`fc_layers`|List of dimensions of fully connected layers|`--fc_layer 1000 40 2`|
-|`seqLen`|Maximum Sequence length|`--seqLen 500`, `--seqLen 25`|
+|`seqLen`|Maximum sequence length|`--seqLen 500`, `--seqLen 25`|
 |`act`|Activation function for neurons|`--act 'tanh'`,`'mysig'`,`'hard_sigmoid'`|
 |`execute`|Train/Test or check the theorem (GDU)|`--execute 'train'`,`--execute 'test'`, `--execute 'gducheck'`|
 |`alg`|EqProp or BPTT.|`--alg 'EP'`, `--alg 'BPTT'`|
@@ -114,7 +114,7 @@ Additional data supporting our methodology is inside the folder ./saved_model/te
 
 Please cite this code with the following bibliography:
 
-Malyaban Bal, Abhronil Sengupta, “Sequence Learning Using Equilibrium Propagation“, Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI-23)
+Malyaban Bal, Abhronil Sengupta, “Sequence Learning Using Equilibrium Propagation“, Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI-23)
 
 ```
 @article{bal2022sequence,
