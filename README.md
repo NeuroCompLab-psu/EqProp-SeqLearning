@@ -114,7 +114,7 @@ Additional data supporting our methodology is inside the folder ./saved_model/te
 
 Please cite this code with the following bibliography:
 
-Malyaban Bal, Abhronil Sengupta, “Sequence Learning Using Equilibrium Propagation“, Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI-23) pp. 2949-2953, 2023 
+Malyaban Bal, Abhronil Sengupta, “Sequence Learning Using Equilibrium Propagation“, Proceedings of the Thirty-Second International Joint Conference on Artificial Intelligence (IJCAI-23) pp. 2949-2953, 2023. 
 Link: https://www.ijcai.org/proceedings/2023/0329.pdf
 ```
 @article{bal2022sequence,
